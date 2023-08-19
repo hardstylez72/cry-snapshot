@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "ES2022",
+    "outDir": "./build/src",
+    "allowJs": true,
+    "target": "es6",
+    "sourceMap": true,
+    "moduleResolution": "node16",
+    "inlineSources": true,
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+
+  "include": [
+    "./src/**/*"
+  ]
+}
